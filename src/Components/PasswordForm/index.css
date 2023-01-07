@@ -1,0 +1,239 @@
+.app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 5%;
+  font-family: 'Roboto';
+}
+.app-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.top-responsive-container {
+  background-color: #5763a5;
+  padding: 5%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .top-responsive-container {
+    flex-direction: row;
+  }
+}
+.password-input-container {
+  background-color: #454f84;
+  padding: 3%;
+  border-radius: 12px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .password-input-container {
+    width: 50%;
+  }
+}
+.add-password-title {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .add-password-title {
+    font-size: 24px;
+  }
+}
+.form {
+  width: 100%;
+}
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.input-logo {
+  width: 38px;
+  height: 38px;
+  padding: 8px;
+  margin-bottom: 12px;
+  background-color: #ffffff;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  outline: none;
+}
+.input {
+  height: 38px;
+  width: 100%;
+  margin-bottom: 12px;
+  padding-left: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748b;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  border-left: 1px solid #94a3b8;
+  outline: none;
+}
+.button-container {
+  text-align: right;
+}
+.submit-button {
+  height: 30px;
+  width: 80px;
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #0b69ff;
+  border: none;
+  cursor: pointer;
+}
+.password-manager-img-sm {
+  width: 100%;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .password-manager-img-sm {
+    display: none;
+  }
+}
+.password-manager-img-lg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .password-manager-img-lg {
+    display: block;
+    width: 40%;
+  }
+}
+.bottom-responsive-container {
+  background-color: #5763a5;
+  padding: 5%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.title-and-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+}
+.your-password-title {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .your-password-title {
+    font-size: 24px;
+  }
+}
+.passwords-count {
+  font-size: 10px;
+  color: #ffffff;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .passwords-count {
+    font-size: 12px;
+  }
+}
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.search-icon {
+  height: 20px;
+  width: 32px;
+  background-color: #ffffff;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .search-icon {
+    height: 26px;
+    width: 38px;
+  }
+}
+.search-input {
+  background-color: #ffffff;
+  height: 20px;
+  width: 95px;
+  font-size: 12px;
+  border: none;
+  border-left: 1px solid #94a3b8;
+  color: #64748b;
+  padding-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    height: 26px;
+    width: 240px;
+    font-size: 14px;
+  }
+}
+.horizontal-ruler {
+  border: 1px solid #7683eb;
+}
+.show-password-container {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.checkbox-label {
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 6px;
+}
+@media screen and (min-width: 768px) {
+  .checkbox-label {
+    font-size: 16px;
+  }
+}
+.no-password-view-container {
+  text-align: center;
+}
+.no-password-img {
+  width: 70%;
+}
+@media screen and (min-width: 768px) {
+  .no-password-img {
+    width: 30%;
+  }
+}
+.no-password-title {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .no-password-title {
+    font-size: 20px;
+  }
+}
+.password-list {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
